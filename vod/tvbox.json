@@ -2,7 +2,7 @@
 //本配置不公开，仅用于TVbox开源测试，如有获得本配置的信息者，则您已经泄露了本学习参考配置
 //我们有权追究您的相关责任，并以法律的形式起诉您，本参考配置不赐予公开，请谨慎参考。
 {
-  "spider": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/jinenge.jar;md5;1d7a5147033044a81f91d5f4a510f9ed",
+  "spider": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/jinenge.jar;md5;1d7a5147033044a81f91d5f4a510f9ed",
   "wallpaper": "https://jinenge.us.kg/wallpaper/",
   "sites": [
    {
@@ -373,7 +373,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/5af5fbe12a88b7c45aa1c21e6551826c.txt"
+        "json": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/5af5fbe12a88b7c45aa1c21e6551826c.txt"
       }
     },
     {
@@ -406,8 +406,8 @@
       "key": "虎牙js",
       "name": "🐯虎牙┃直播",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/drpy2.min.js",
-      "ext": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/虎牙.js",
+      "api": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/drpy2.min.js",
+      "ext": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/虎牙.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
@@ -422,8 +422,8 @@
       "key": "斗鱼js",
       "name": "🐟斗鱼┃直播",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/drpy2.min.js",
-      "ext": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/斗鱼直播.js",
+      "api": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/drpy2.min.js",
+      "ext": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/斗鱼直播.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
@@ -447,7 +447,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/0075389dca9afadd4614e9713765ff17.txt"
+        "json": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/0075389dca9afadd4614e9713765ff17.txt"
       }
     },
     {
@@ -463,15 +463,15 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/6496356286589c68f52c2f99c0c674c7.txt"
+        "json": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/6496356286589c68f52c2f99c0c674c7.txt"
       }
     },
     {
       "key": "dr_兔小贝",
       "name": "📚儿童┃启蒙",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/drpy2.min.js",
-      "ext": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/兔小贝.js",
+      "api": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/drpy2.min.js",
+      "ext": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/兔小贝.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -493,7 +493,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/89370c8ddf36b5e1beb4d71adb921bda.txt"
+        "json": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/89370c8ddf36b5e1beb4d71adb921bda.txt"
       }
     },
     {
@@ -509,7 +509,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
+        "json": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
       }
     },
     {
@@ -525,7 +525,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/8f55d520f8d70056695740ef151744a7.txt"
+        "json": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/8f55d520f8d70056695740ef151744a7.txt"
       }
     }
   ],
@@ -553,7 +553,7 @@
     {
       "name": "develop202",
       "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/interface.txt",
+      "url": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/interface.txt",
       "playerType": 2,
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -561,19 +561,19 @@
     {
       "name": "Kimentanm",
       "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/iptv.m3u",
+      "url": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/iptv.m3u",
       "playerType": 2
     },
     {
       "name": "范明明（需开启V6网络）",
       "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/3d75a78a0fc7ede372c03598d6d10367.m3u",
+      "url": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/3d75a78a0fc7ede372c03598d6d10367.m3u",
       "playerType": 2
     },
     {
       "name": "虎牙一起看",
       "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/huyayqk.m3u",
+      "url": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/huyayqk.m3u",
       "playerType": 2,
       "timeout": 10,
       "ua": "okHttp/Mod-1.5.0.0"
@@ -581,7 +581,7 @@
     {
       "name": "斗鱼一起看",
       "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/douyuyqk.m3u",
+      "url": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/douyuyqk.m3u",
       "playerType": 2,
       "timeout": 10,
       "ua": "okHttp/Mod-1.5.0.0"
@@ -589,7 +589,7 @@
     {
       "name": "B站直播",
       "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/bililive.m3u",
+      "url": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/bililive.m3u",
       "playerType": 2,
       "timeout": 10,
       "ua": "okHttp/Mod-1.5.0.0"
@@ -597,7 +597,7 @@
     {
       "name": "YY轮播",
       "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/yylunbo.m3u",
+      "url": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/yylunbo.m3u",
       "playerType": 2,
       "timeout": 10,
       "ua": "okHttp/Mod-1.5.0.0"
@@ -863,7 +863,7 @@
       "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/酷奇MV.js"
+      "ext": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/酷奇MV.js"
     },
     {
       "key": "MTV",
@@ -901,7 +901,7 @@
       "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/短视频.js"
+      "ext": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/短视频.js"
     },
     {
       "key": "看球",
@@ -954,7 +954,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/兔小贝.js"
+      "ext": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/兔小贝.js"
     },
     {
       "key": "少儿",
