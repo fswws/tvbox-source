@@ -1,14 +1,14 @@
 [
   {
     "name": "📺 影视仓内置源(点播+直播)",
-    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/tvbox.json;pk;https://raw.githubusercontent.com/fswws/tvbox-source/main/vod/tvbox.json;pk;https://ghproxy.net/https://raw.githubusercontent.com/fswws/tvbox-source/main/vod/tvbox.json"
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/tvbox.json"
   },
   {
     "name": "🍚 饭太硬点播源",
-    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/fty.json;pk;https://raw.githubusercontent.com/fswws/tvbox-source/main/vod/fty.json;pk;https://ghproxy.net/https://raw.githubusercontent.com/fswws/tvbox-source/main/vod/fty.json"
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/fty.json"
   },
   {
     "name": "📡 直播源(每3天自动更新)",
-    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live.json;pk;https://raw.githubusercontent.com/fswws/tvbox-source/main/live.json;pk;https://ghproxy.net/https://raw.githubusercontent.com/fswws/tvbox-source/main/live.json"
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live.json"
   }
 ]
