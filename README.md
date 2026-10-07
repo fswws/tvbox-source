@@ -7,7 +7,7 @@
 在影视仓/ TVBox 的 **设置 → 配置地址** 填入：
 
 ```
-https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/tvbox.json
+https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/tvbox.json
 ```
 
 填好后 App 每次启动 / 手动刷新会自动拉取最新配置，无需手动维护。
