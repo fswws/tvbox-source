@@ -2,7 +2,7 @@ name: 自动更新直播源
 
 on:
   schedule:
-    - cron: "30 22 * * *"   # 北京时间每天 06:30
+    - cron: "30 22 */3 * *"   # 北京时间每3天 06:30 自动更新
   workflow_dispatch:
 
 permissions:
