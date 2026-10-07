@@ -4,7 +4,7 @@
     {
       "name": "自动更新直播",
       "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/fswws/tvbox-source@main/live.txt",
+      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live.txt",
       "playerType": 2,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"

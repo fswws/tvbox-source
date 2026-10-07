@@ -33,9 +33,9 @@ jobs:
           cp /tmp/jinenge/tvbox.json vod/tvbox.json
           cp /tmp/qist/fty.json vod/fty.json
           # 相对路径依赖统一改写成上游CDN完整URL，保证首次可用且实时更新
-          sed -i 's|"\./lib/|"https://cdn.jsdelivr.net/gh/jinenge/tvbox@main/lib/|g' vod/tvbox.json
-          sed -i 's|"\./FTY/|"https://cdn.jsdelivr.net/gh/qist/tvbox@master/FTY/|g' vod/fty.json
-          sed -i 's|"\./jar/|"https://cdn.jsdelivr.net/gh/qist/tvbox@master/jar/|g' vod/fty.json
+          sed -i 's|"\./lib/|"https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/|g' vod/tvbox.json
+          sed -i 's|"\./FTY/|"https://gcore.jsdelivr.net/gh/qist/tvbox@master/FTY/|g' vod/fty.json
+          sed -i 's|"\./jar/|"https://gcore.jsdelivr.net/gh/qist/tvbox@master/jar/|g' vod/fty.json
 
       - name: 合并去重生成 live.txt
         run: |
