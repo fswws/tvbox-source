@@ -1,16 +1,66 @@
-{
-  "urls": [
-    {
-      "name": "📺 影视仓内置源(点播+直播)",
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/fswws/tvbox-source/main/vod/tvbox.json"
-    },
-    {
-      "name": "🍚 饭太硬点播源",
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/fswws/tvbox-source/main/vod/fty.json"
-    },
-    {
-      "name": "📡 直播源(每3天自动更新)",
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/fswws/tvbox-source/main/live.json"
-    }
-  ]
-}
+[
+  {
+    "name": "🇨🇳影视仓内置源·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/dom_1.json"
+  },
+  {
+    "name": "🇨🇳饭太硬·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/dom_2.json"
+  },
+  {
+    "name": "🇨🇳王二小·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/dom_3.json"
+  },
+  {
+    "name": "🇨🇳俊哥·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/dom_4.json"
+  },
+  {
+    "name": "🇨🇳二月红·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/dom_5.json"
+  },
+  {
+    "name": "🇨🇳潇洒·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/dom_6.json"
+  },
+  {
+    "name": "🇨🇳牛二·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/dom_7.json"
+  },
+  {
+    "name": "🇨🇳ok线路·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/dom_8.json"
+  },
+  {
+    "name": "🇨🇳小盒子·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/dom_9.json"
+  },
+  {
+    "name": "🇨🇳金鹰·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/dom_10.json"
+  },
+  {
+    "name": "🌍👽玩偶哥哥┃4K弹幕·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/oversea_1.json"
+  },
+  {
+    "name": "🌍💖┃至臻┃4K💖·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/oversea_2.json"
+  },
+  {
+    "name": "🌍🍊┃在线┃外剧·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/oversea_3.json"
+  },
+  {
+    "name": "🌍🐾日本┃动漫·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/oversea_4.json"
+  },
+  {
+    "name": "🌍🚌巴士┃动漫·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/vod/oversea_5.json"
+  },
+  {
+    "name": "📺直播·自动更新",
+    "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live.json"
+  }
+]
