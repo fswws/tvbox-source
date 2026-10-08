@@ -1,0 +1,41 @@
+#EXTM3U
+#EXTINF:-1 ,[巴西]RedeMãoAmiga(720p)
+http://streaming03.zas.media:1935/redemaoamiga/redemaoamiga/live.m3u8
+#EXTINF:-1 ,[白俄罗斯]FirstMusicChannelBielorrusia
+http://hz1.teleport.cc/HLS/SD.m3u8
+#EXTINF:-1 ,[德国]1-2-3TV(480p)
+http://123tv.cdn.ses-ps.com/index.m3u8
+#EXTINF:-1 ,[俄罗斯联邦]UniverTV(576p)
+http://cdn.universmotri.ru/live/mq.sdp/playlist.m3u8
+#EXTINF:-1 ,[俄罗斯联邦]ТВК24[640*360][640*360]
+http://air.tvk6.ru/tvk24/playlist.m3u8
+#EXTINF:-1 ,[哥斯达黎加]Canal88Stereo
+http://k3.usastreams.com:1935/CableLatino/88stereo/chunklist_w1223558379.m3u8
+#EXTINF:-1 ,[荷兰]OmroepWest(1080p)
+https://d2dslh4sd7yvc1.cloudfront.net/live/omroepwest/ngrp:tv-feed_all/playlist.m3u8
+#EXTINF:-1 ,[荷兰]OpenRotterdam(480p)[854*480][854*480]
+http://ms2.mx-cd.net/tv/141-573555/OPEN_Rotterdam.smil/playlist.m3u8
+#EXTINF:-1 ,[荷兰]RTVNOF(WEB)(720p)[Not24/7]
+http://593aed234297b.streamlock.net:1935/rtvnof2/live/playlist.m3u8
+#EXTINF:-1 ,[荷兰]RTVNOFTV(720p)
+http://593aed234297b.streamlock.net:1935/rtvnof/rtvnof/playlist.m3u8
+#EXTINF:-1 ,[荷兰]TommyTeleshopping(480p)[854*480][854*480]
+http://ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8
+#EXTINF:-1 ,[吉尔吉斯斯坦]TV1KG
+http://212.2.225.30:1935/live/site.stream/playlist.m3u8
+#EXTINF:-1 ,[罗马尼亚]LightChannel[854*480][854*480]
+http://streamer1.streamhost.org:1935/salive/GMIlcbgM/playlist.m3u8
+#EXTINF:-1 ,[美国]AlientoVision[640*360][640*360]
+http://209.133.209.195:1935/AlientoSD/smil:AlientoSD.smil/playlist.m3u8
+#EXTINF:-1 ,[美国]Christian Youth Channel (CYC) (720p)
+http://media.smc-host.com:1935/cycnow.com/cyc2/playlist.m3u8
+#EXTINF:-1 ,[美国]OAN Plus (1080p)
+http://oneamericanews-roku-us.amagi.tv/playlist.m3u8
+#EXTINF:-1 ,[美国]OMLonRevry
+https://linear-73.frequency.stream/dist/localnow/73/hls/master/playlist.m3u8
+#EXTINF:-1 ,[美国]PAC 12 Insider (1080p)
+https://pac12-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 ,[美国]WhitePlainsCommunityMedia[640*360][640*360]
+http://stream.swagit.com/live-edge/whiteplainsny/smil:std-4x3-1-b/chunklist_w1456643228_b512000.m3u8
+#EXTINF:-1 ,[莫桑比克]TVMInternacional(480p)[854*480][854*480]
+http://online.tvm.co.mz:1935/live/smil:Channel2.smil/playlist.m3u8
