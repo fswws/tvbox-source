@@ -1,8 +1,6 @@
-name: 自动更新源(直播+点播)
+name: 自动更新源(每3天)
 
 on:
-  push:
-    branches: [main]
   schedule:
     - cron: "30 22 */3 * *"   # 北京时间每3天 06:30 自动更新
   workflow_dispatch:
@@ -16,37 +14,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: 拉取各直播源
-        run: |
-          mkdir -p raw
-          curl -sL -m 90 -o raw/tvlive.txt "https://raw.githubusercontent.com/qist/tvbox/master/tvlive.txt" || true
-          curl -sL -m 90 -o raw/zb.txt "https://raw.githubusercontent.com/qist/tvbox/master/zb.txt" || true
-          curl -sL -m 90 -o raw/list.txt "https://raw.githubusercontent.com/qist/tvbox/master/list.txt" || true
-          curl -sL -m 90 -o raw/fml_ipv6.txt "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u" || true
-          curl -sL -m 90 -o raw/iptv_org_cn.m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u" || true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-      - name: 拉取点播源(依赖走上游CDN)
-        run: |
-          git clone --depth 1 https://github.com/jinenge/tvbox.git /tmp/jinenge
-          git clone --depth 1 --branch master https://github.com/qist/tvbox.git /tmp/qist
-          mkdir -p vod
-          cp /tmp/jinenge/tvbox.json vod/tvbox.json
-          cp /tmp/qist/fty.json vod/fty.json
-          # 相对路径依赖统一改写成上游CDN完整URL，保证首次可用且实时更新
-          sed -i 's|"\./lib/|"https://fastly.jsdelivr.net/gh/jinenge/tvbox@main/lib/|g' vod/tvbox.json
-          sed -i 's|"\./FTY/|"https://fastly.jsdelivr.net/gh/qist/tvbox@master/FTY/|g' vod/fty.json
-          sed -i 's|"\./jar/|"https://fastly.jsdelivr.net/gh/qist/tvbox@master/jar/|g' vod/fty.json
-          # 清洗：去注释、只保留单段合法JSON（影视仓/TVBox Gson解析要求）
-          python3 clean_vod.py
-
-      - name: 合并去重生成 live.txt
-        run: |
-          python3 merge.py
+      - name: 更新播放源(国内点播/直播各5个, 海外各5个)
+        run: python update_sources.py
 
       - name: 提交并推送
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "chore: 自动更新源(直播+点播) $(date -u +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "chore: 每3天自动更新播放源 $(date -u +%Y-%m-%d)"
           git push
