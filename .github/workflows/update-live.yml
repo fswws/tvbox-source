@@ -36,6 +36,8 @@ jobs:
           sed -i 's|"\./lib/|"https://fastly.jsdelivr.net/gh/jinenge/tvbox@main/lib/|g' vod/tvbox.json
           sed -i 's|"\./FTY/|"https://fastly.jsdelivr.net/gh/qist/tvbox@master/FTY/|g' vod/fty.json
           sed -i 's|"\./jar/|"https://fastly.jsdelivr.net/gh/qist/tvbox@master/jar/|g' vod/fty.json
+          # 清洗：去注释、只保留单段合法JSON（影视仓/TVBox Gson解析要求）
+          python3 clean_vod.py
 
       - name: 合并去重生成 live.txt
         run: |
