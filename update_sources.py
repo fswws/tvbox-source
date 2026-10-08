@@ -27,12 +27,11 @@ import urllib.request
 from urllib.parse import urljoin
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-PROXY_PREFIX = "https://gh-proxy.com/"          # GitHub raw 的国内代理（备用通道）
+PROXY_PREFIX = "https://gh-proxy.com/"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 
 
 def _normalize_url(url):
-    """非ASCII路径百分号编码 + IDN域名转punycode，确保 urllib 可请求。"""
     parts = urllib.parse.urlsplit(url)
     host = parts.hostname or ""
     if any(ord(c) > 127 for c in host):
@@ -61,7 +60,6 @@ def _normalize_url(url):
 
 
 def fetch(url, timeout=30, retry=2):
-    """拉取文本；非ASCII(中文/IDN)URL先规范化；直连失败自动经 gh-proxy.com 重试。"""
     last = None
     norm = _normalize_url(url)
     candidates = [norm]
@@ -81,7 +79,6 @@ def fetch(url, timeout=30, retry=2):
 
 
 def strip_comments(text):
-    """去掉 /* */ 块注释与行首 // 注释（保留 JSON 字符串内的 //）。"""
     text = re.sub(r"/\*.*?\*/", "", text, flags=re.S)
     lines = []
     for ln in text.splitlines():
@@ -92,7 +89,6 @@ def strip_comments(text):
 
 
 def extract_first_json(text):
-    """提取第一个平衡的 JSON 对象（容忍前置注释/多个拼接对象）。"""
     t = strip_comments(text)
     start = t.find("{")
     if start < 0:
@@ -122,7 +118,6 @@ def extract_first_json(text):
 
 
 def rewrite_github(u):
-    """raw.githubusercontent / cdn.jsdelivr 统一改走 fastly.jsdelivr（国内可达）。"""
     m = re.match(r"^https://raw\.githubusercontent\.com/([^/]+)/([^/]+)/([^/]+)/(.+)$", u)
     if m:
         return f"https://fastly.jsdelivr.net/gh/{m.group(1)}/{m.group(2)}@{m.group(3)}/{m.group(4)}"
@@ -133,14 +128,12 @@ def rewrite_github(u):
 
 
 def resolve_rel(u, base):
-    """相对路径 -> 基于配置URL的绝对路径；GitHub raw 再改写为 jsdelivr。"""
     if u and not u.startswith(("http://", "https://")):
         u = urljoin(base, u)
     return rewrite_github(u)
 
 
 def parse_json_tolerant(obj_text):
-    """容忍解析：去BOM、控制字符、多余尾逗号后重试 json.loads。"""
     t = obj_text.lstrip("\ufeff")
     for _ in range(3):
         try:
@@ -156,7 +149,6 @@ def parse_json_tolerant(obj_text):
 
 
 def clean_vod(raw_text, base_url):
-    """清洗点播配置：取首个JSON对象、解析、改写相对依赖、重新序列化。"""
     obj = extract_first_json(raw_text)
     if obj is None:
         return None
@@ -186,7 +178,6 @@ def clean_vod(raw_text, base_url):
 
 
 def validate_live(text):
-    """直播列表校验：足够大且含频道标记。"""
     if len(text) < 1000:
         return False
     if "#EXTINF" in text or "#genre#" in text or ".m3u8" in text.lower() or ".flv" in text.lower():
@@ -219,7 +210,6 @@ def main():
     report = {"time": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
               "domestic_vod": [], "oversea_vod": [], "domestic_live": [], "oversea_live": []}
 
-    # ---------- 1. 国内点播 ----------
     dom_vod_ok = []
     for cand in pool["domestic_vod"]:
         try:
@@ -242,7 +232,6 @@ def main():
             json.dump(cfg, f, ensure_ascii=False, indent=1)
         report["domestic_vod"].append({"name": name, "file": f"vod/dom_{i}.json", "usable_sites": usable})
 
-    # ---------- 2. 海外点播（从已抓取的点播配置中按关键词提取海外站点） ----------
     oversea_keywords = pool["oversea_vod"]["site_name_keywords"]
     oversea_matched = {}
     for cand, cfg, _ in dom_vod_ok:
@@ -260,20 +249,14 @@ def main():
             print(f"[oversea] 未找到 {kw}")
             continue
         src_name, src_cfg, site = item
-        one = {
-            "spider": src_cfg.get("spider", ""),
-            "wallpaper": src_cfg.get("wallpaper", ""),
-            "sites": [site],
-            "parses": src_cfg.get("parses", []),
-            "lives": [],
-        }
+        one = {"spider": src_cfg.get("spider", ""), "wallpaper": src_cfg.get("wallpaper", ""),
+               "sites": [site], "parses": src_cfg.get("parses", []), "lives": []}
         with open(os.path.join(out, "vod", f"oversea_{i}.json"), "w", encoding="utf-8") as f:
             json.dump(one, f, ensure_ascii=False, indent=1)
         report["oversea_vod"].append({"name": site.get("name"), "key": site.get("key"),
                                       "file": f"vod/oversea_{i}.json", "source": src_name})
         print(f"[oversea] 生成 vod/oversea_{i}.json: {site.get('name')}")
 
-    # ---------- 3. 直播 ----------
     def do_live(cands, prefix, limit, rpt_key):
         ok = []
         for cand in cands:
@@ -296,7 +279,6 @@ def main():
     dom_live = do_live(pool["domestic_live"], "dom", dom_live_n, "domestic_live")
     ov_live = do_live(pool["oversea_live"], "oversea", 99, "oversea_live")
 
-    # ---------- 4. 生成 tvbox.json（多仓聚合）与 live.json ----------
     agg = []
     for i, item in enumerate(report["domestic_vod"], 1):
         agg.append({"name": f"\U0001F1E8\U0001F1F3{item['name']}·自动更新", "url": f"{jsd}/vod/dom_{i}.json"})
@@ -314,7 +296,6 @@ def main():
     with open(os.path.join(out, "live.json"), "w", encoding="utf-8") as f:
         json.dump({"lives": lives}, f, ensure_ascii=False, indent=2)
 
-    # ---------- 5. 汇总 ----------
     with open(os.path.join(out, "last_update.json"), "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
     print("==== 汇总 ====")
