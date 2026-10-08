@@ -1,0 +1,41 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="6WiseTv.us@SD",6 Wise Tv (720p)
+https://live.enhdtv.com:8081/8150/index.m3u8
+#EXTINF:-1 tvg-id="48Hours.us@US",48 Hours (1080p)
+https://dai.google.com/linear/hls/event/JUr94WL2QAiVpGNHY5n5dA/master.m3u8
+#EXTINF:-1 tvg-id="AE.us@East",A&E (720p)
+http://23.239.31.26:8989/aande/index.m3u8
+#EXTINF:-1 tvg-id="AELatinAmerica.us@Panregional",A&E Latin America (1080p)
+http://138.121.15.230:9002/A&E/index.m3u8
+#EXTINF:-1 tvg-id="AELatinAmerica.us@Panregional",A&E Latin America (1080p)
+http://190.93.224.42/AYE/index.m3u8
+#EXTINF:-1 tvg-id="AELatinAmerica.us@Brazil",A&E Latin America Brazil (720p)
+http://170.83.16.50/AeE/index.m3u8
+#EXTINF:-1 tvg-id="ABNAfghanistan.us@SD",ABN Afghanistan (540p)
+https://mediaserver.abnvideos.com/streams/abnafghanistan.m3u8
+#EXTINF:-1 tvg-id="ABNAfrica.us@SD",ABN Africa (480p)
+https://mediaserver.abnvideos.com/streams/abnafrica.m3u8
+#EXTINF:-1 tvg-id="ABNBibleMoviesChannel.us@SD",ABN Bible Movies (720p)
+https://mediaserver.abnvideos.com/streams/abnbiblemovies.m3u8
+#EXTINF:-1 tvg-id="ABNChina.us@SD",ABN China (720p)
+https://mediaserver.abnvideos.com/streams/abnchina.m3u8
+#EXTINF:-1 tvg-id="",ABN Freedom of Speech
+https://mediaserver.abnvideos.com/streams/freedom_of_speech.m3u8
+#EXTINF:-1 tvg-id="",ABN I AM
+https://mediaserver.abnvideos.com/streams/i_am_.m3u8
+#EXTINF:-1 tvg-id="",ABN Son of God
+https://mediaserver.abnvideos.com/streams/son_of_god_.m3u8
+#EXTINF:-1 tvg-id="ABNTVIndia.us@SD",ABN TV India (540p)
+https://mediaserver.abnvideos.com/streams/abntvindia.m3u8
+#EXTINF:-1 tvg-id="ABNUrdu.us@SD",ABN Urdu (540p)
+https://mediaserver.abnvideos.com/streams/abnurdu.m3u8
+#EXTINF:-1 tvg-id="Access4PAC.us@SD",Access 4 PAC
+https://reflect-channel18vod-springfield-il-us.cablecast.tv/live-16/live/stream-4/live.m3u8
+#EXTINF:-1 tvg-id="Access19.us@SD",Access 19
+https://reflect-montgomerycommunitymedia.cablecast.tv/live-8/live/stream-3/live.m3u8
+#EXTINF:-1 tvg-id="AccessNashua.us@SD",Access Nashua (720p)
+https://livestream.telvue.com/nashuanh1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="AccessVisionChannel16.us@SD",AccessVision Channel 16 (720p)
+https://livestream.telvue.com/accvision1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="AccessVisionChannel17.us@SD",AccessVision Channel 17 (720p)
+https://livestream.telvue.com/accvision2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8

@@ -1,0 +1,1 @@
+{"spider": "https://fastly.jsdelivr.net/gh/jinenge/tvbox@main/lib/jinenge.jar;md5;1d7a5147033044a81f91d5f4a510f9ed", "wallpaper": "https://jinenge.us.kg/wallpaper/", "sites": [{"key": "Anime1", "name": "🐾日本┃动漫", "type": 3, "api": "csp_Anime1Guard", "timeout": 10, "searchable": 1, "quickSearch": 1, "changeable": 1}], "parses": [], "lives": []}
