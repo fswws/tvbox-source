@@ -1,36 +1,36 @@
-# TVBox / 影视仓 自动更新播放源聚合配置
+# TVBox 自动更新源
 
-本仓库用于为影视仓 / TVBox 类播放器提供**自动更新的聚合播放源**。
+影视仓 / TVBox 可用的自动更新播放源仓库。每 **3 天**由 GitHub Actions 自动拉取最新可用源并刷新缓存，保证地址始终可用。
 
-## 使用方式
+## 使用方式（影视仓/TVBox）
 
-在影视仓/ TVBox 的 **设置 → 配置地址** 填入：
-
-```
-https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/tvbox.json
-```
-
-填好后 App 每次启动 / 手动刷新会自动拉取最新配置，无需手动维护。
-
-## 文件说明
-
-| 文件 | 说明 |
+| 设置项 | 填写地址 |
 |---|---|
-| `tvbox.json` | 多仓聚合配置（引用点播源缓存、直播源） |
-| `live.json` | 直播源单仓（lives 指向 `live.txt`） |
-| `live.txt` | 直播源列表（TVBox txt 格式），由 GitHub Actions 每3天自动合并更新 |
-| `vod/tvbox.json` | 影视仓内置点播源缓存（每3天同步，依赖走上游CDN） |
-| `vod/fty.json` | 饭太硬点播源缓存（每3天同步，依赖走上游CDN） |
-| `merge.py` | 直播源合并去重脚本 |
-| `.github/workflows/update-live.yml` | 每3天自动更新（直播+点播）的工作流 |
+| **配置地址** | `https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/tvbox.json` |
+| **直播地址** | `https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live.json` |
 
-## 播放源构成
+> 配置地址为「多仓」聚合列表，也可以直接把 `vod/dom_1.json` 等单仓地址填入（单仓/多仓均可，应用会自动识别）。
 
-- **点播源**：影视仓内置源（jinenge/tvbox）、饭太硬（qist/tvbox）——配置文本每3天从上游同步缓存，站点列表更新节奏固定；js/jar 等运行依赖实时走上游 CDN，保证始终最新
-- **直播源**：每3天从多个公开直播源仓库（qist/tvbox、fanmingming/live 等）拉取合并去重
+## 更新机制
 
-## 手动触发更新
+- 工作流 `.github/workflows/update-live.yml` 每 3 天（北京时间 06:30）自动运行一次，也可手动 `workflow_dispatch` 触发。
+- `update_sources.py` 从 `sources.json` 候选池拉取各源，逐项校验（配置可解析、站点 ≥3 个；直播列表非空且含频道），将可用源缓存到本仓库，并重新生成 `tvbox.json` 与 `live.json`。
+- 国内点播、国内直播默认各保留 **5 个**最新可用源（首次构建为 10 个）；海外点播、海外直播各 **5 个**，随每次更新同步刷新。
+- 所有对外地址统一走 `fastly.jsdelivr.net` 加速，国内网络可直接访问。
 
-仓库 Actions 页面 → `自动更新源(直播+点播)` → `Run workflow` 即可立即更新。
+## 目录结构
 
-> 免责声明：本仓库仅做技术性的源地址聚合与转发，不托管任何视频内容；各源由上游提供，可能随时失效，请自行甄别使用。
+```
+tvbox.json        多仓聚合配置（自动生成）
+live.json         直播源配置（自动生成）
+sources.json      候选源池（手动维护，增删候选改这里）
+update_sources.py 更新脚本（自动生成上述配置）
+vod/              点播源缓存（dom_1~N.json 国内；oversea_1~5.json 海外）
+live/             直播源缓存（dom_1~N.* 国内；oversea_1~5.* 海外）
+last_update.json  最近一次更新汇总
+```
+
+## 注意事项
+
+- 播放源均为社区公开接口，可能随时变化；每次更新都会重新校验并替换失效源。
+- 本仓库仅做技术聚合与缓存，不保证任何第三方源长期可用，请遵守相关法律法规。
