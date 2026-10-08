@@ -1,0 +1,2 @@
+probe,https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlist/amg00477-samsungelectron-worldpokertour-samsunguk/playlist.m3u8
+中文测试行,http://example.com/xx.m3u8
