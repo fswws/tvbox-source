@@ -1,27 +1,23 @@
 {
   "lives": [
     {
-      "name": "🇨🇳饭太硬·综合直播",
-      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_1.txt"
-    },
-    {
-      "name": "🇨🇳饭太硬·卫视直播",
-      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_2.txt"
-    },
-    {
-      "name": "🇨🇳饭太硬·电视直播",
-      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_3.txt"
-    },
-    {
-      "name": "🇨🇳范明明·IPv6直播",
-      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_4.m3u"
-    },
-    {
       "name": "🇨🇳iptv-org·中国频道",
       "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_5.m3u"
     },
     {
+      "name": "🇨🇳国内频道精选",
+      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_7.m3u"
+    },
+    {
+      "name": "🇨🇳电视直播合集",
+      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_9.txt"
+    },
+    {
       "name": "🌍国外电视台2026",
+      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/oversea_1.m3u"
+    },
+    {
+      "name": "🌍国际频道",
       "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/oversea_1.txt"
     },
     {
