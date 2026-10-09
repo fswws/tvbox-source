@@ -2,43 +2,43 @@
   "lives": [
     {
       "name": "🇨🇳饭太硬·综合直播",
-      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_1.txt"
+      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_1.txt"
     },
     {
       "name": "🇨🇳饭太硬·卫视直播",
-      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_2.txt"
+      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_2.txt"
     },
     {
       "name": "🇨🇳饭太硬·电视直播",
-      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_3.txt"
+      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_3.txt"
     },
     {
       "name": "🇨🇳范明明·IPv6直播",
-      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_4.m3u"
+      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_4.m3u"
     },
     {
       "name": "🇨🇳iptv-org·中国频道",
-      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_5.m3u"
+      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_5.m3u"
     },
     {
       "name": "🌍国外电视台2026",
-      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/oversea_1.txt"
+      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/oversea_1.txt"
     },
     {
       "name": "🌍美国频道",
-      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/oversea_2.m3u"
+      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/oversea_2.m3u"
     },
     {
       "name": "🌍英国频道",
-      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/oversea_3.m3u"
+      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/oversea_3.m3u"
     },
     {
       "name": "🌍日本频道",
-      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/oversea_4.m3u"
+      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/oversea_4.m3u"
     },
     {
       "name": "🌍韩国频道",
-      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/oversea_5.m3u"
+      "url": "https://gcore.jsdelivr.net/gh/fswws/tvbox-source@main/live/oversea_5.m3u"
     }
   ]
 }
