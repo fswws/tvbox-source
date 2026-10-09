@@ -126,10 +126,10 @@ def rewrite_github(u):
     """raw.githubusercontent / cdn.jsdelivr 统一改走 fastly.jsdelivr（国内可达）。"""
     m = re.match(r"^https://raw\.githubusercontent\.com/([^/]+)/([^/]+)/([^/]+)/(.+)$", u)
     if m:
-        return f"https://fastly.jsdelivr.net/gh/{m.group(1)}/{m.group(2)}@{m.group(3)}/{m.group(4)}"
+        return f"https://gcore.jsdelivr.net/gh/{m.group(1)}/{m.group(2)}@{m.group(3)}/{m.group(4)}"
     m = re.match(r"^https://cdn\.jsdelivr\.net/gh/(.+)$", u)
     if m:
-        return f"https://fastly.jsdelivr.net/gh/{m.group(1)}"
+        return f"https://gcore.jsdelivr.net/gh/{m.group(1)}"
     return u
 
 
@@ -405,7 +405,7 @@ def main():
                 seen_live.add(nm)
                 agg_lives.append(copy.deepcopy(item))
     agg = {
-        "spider": "https://fastly.jsdelivr.net/gh/jinenge/tvbox@main/lib/jinenge.jar;md5;1d7a5147033044a81f91d5f4a510f9ed",
+        "spider": "https://gcore.jsdelivr.net/gh/jinenge/tvbox@main/lib/jinenge.jar;md5;1d7a5147033044a81f91d5f4a510f9ed",
         "wallpaper": "https://jinenge.us.kg/wallpaper/",
         "sites": agg_sites,
         "lives": agg_lives,
