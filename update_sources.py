@@ -341,7 +341,10 @@ def main():
     ov_live = do_live(pool["oversea_live"], "oversea", 99, "oversea_live")
 
     # ---------- 4. 生成 tvbox.json（单仓聚合：App 6.1.9 不支持多仓数组，须合并 sites）与 live.json ----------
-    def _merge_sites(paths):
+    def _merge_sites(paths, keep_only_direct=True):
+        """合并各源 sites；keep_only_direct=True 时丢弃 csp_ 型站点
+        （其依赖的外部 spider jar 在 jsdelivr 上 403 不可用，只保留
+        标准 http/https api 与 drpy 脚本源）。"""
         seen, merged = set(), []
         for p in paths:
             fp = os.path.join(out, p)
@@ -353,6 +356,9 @@ def main():
             prefix = os.path.splitext(os.path.basename(p))[0].replace("dom_", "d").replace("oversea_", "o")
             for s in data.get("sites", []) if isinstance(data, dict) else []:
                 if not isinstance(s, dict) or not s.get("name"):
+                    continue
+                api = s.get("api") or ""
+                if keep_only_direct and api.startswith("csp_"):
                     continue
                 key = s.get("key") or ""
                 nk = f"{prefix}_{key}" if key else f"{prefix}_s{len(merged)}"
@@ -366,6 +372,15 @@ def main():
 
     agg_sites = _merge_sites([f"vod/dom_{i}.json" for i in range(1, len(report["domestic_vod"]) + 1)]
                              + [item["file"] for item in report["oversea_vod"]])
+    # 排序：标准 http api 采集源优先（主页推荐用快源），drpy/脚本源靠后
+    def _site_rank(s):
+        api = s.get("api", "")
+        if api.startswith("http") and ("drpy" in api or api.endswith(".js")):
+            return 2
+        if api.startswith("http"):
+            return 1
+        return 3
+    agg_sites = sorted(agg_sites, key=_site_rank)
     agg_lives = []
     seen_live = set()
     for p in [f"vod/dom_{i}.json" for i in range(1, len(report["domestic_vod"]) + 1)]:

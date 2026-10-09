@@ -21,22 +21,6 @@
       "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_5.m3u"
     },
     {
-      "name": "🇨🇳iptv-org·香港频道",
-      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_6.m3u"
-    },
-    {
-      "name": "🇨🇳iptv-org·台湾频道",
-      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_7.m3u"
-    },
-    {
-      "name": "🇨🇳iptv-org·澳门频道",
-      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_8.m3u"
-    },
-    {
-      "name": "🇨🇳IPTV4测试源",
-      "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/dom_9.txt"
-    },
-    {
       "name": "🌍国外电视台2026",
       "url": "https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/live/oversea_1.txt"
     },
