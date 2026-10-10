@@ -21,6 +21,9 @@ jobs:
       - name: 更新播放源(国内点播/直播各5个, 海外各5个)
         run: python update_sources.py
 
+      - name: 合并测活直播源(zby+zbefine, 保留旧线路)
+        run: python merge_live.py
+
       - name: 提交并推送
         run: |
           git config user.name "github-actions[bot]"
