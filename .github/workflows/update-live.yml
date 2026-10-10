@@ -24,6 +24,9 @@ jobs:
       - name: 合并测活直播源(zby+zbefine, 保留旧线路)
         run: python merge_live.py
 
+      - name: 更新体育源(CCTV5/5+重点)
+        run: python merge_sports.py
+
       - name: 提交并推送
         run: |
           git config user.name "github-actions[bot]"
