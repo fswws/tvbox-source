@@ -20,6 +20,7 @@ CCTV9,http://69.30.245.50/live/cctv9.m3u8
 港澳台,#genre#
 凤凰中文,https://stream1.freetv.fun/4e695e885cc20b20b7e3ec874fe52ed75e27443778c8ff29e498c4c9d7cec4a0.m3u8#http://156.238.224.170:7001/fhx.php?id=cn#https://t.freetv.fun/live/feng-huang-zhong-wen-4.m3u8#https://t.freetv.fun/live/feng-huang-zhong-wen.m3u8#https://t.freetv.fun/live/feng-huang-wei-shi-1.m3u8#https://t.freetv.fun/live/feng-huang-wei-shi.m3u8#https://t.freetv.fun/live/feng-huang-zhong-wen-2.m3u8#http://cdn6.163189.xyz/163189/fhzw
 韩国MBC,http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
+阳光卫视,https://stream.chinasuntv.com/680k/mid_video_index.m3u8
 
 电影,#genre#
 CHC动作电影,https://t.freetv.fun/live/chcdong-zuo-dian-ying-6.m3u8#https://t.freetv.fun/live/chcdong-zuo-dian-ying-2.m3u8#https://t.freetv.fun/live/chcdong-zuo-dian-ying-3.m3u8#https://t.freetv.fun/live/chcdong-zuo-dian-ying-7.m3u8#https://t.freetv.fun/live/chcdong-zuo-dian-ying-10.m3u8#https://t.freetv.fun/live/chcdong-zuo-dian-ying-5.m3u8#https://t.freetv.fun/live/chcdong-zuo-dian-ying-8.m3u8#https://t.freetv.fun/live/chcdong-zuo-dian-ying-1.m3u8
@@ -204,7 +205,7 @@ Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8#http://ott.watch/stream/E9
 亳州农村,http://zbbf2.ahbztv.com/live/418.m3u8#http://zbbf2.ahbztv.com/live/418.m3u8?zanhd
 亳州新闻,http://zbbf2.ahbztv.com/live/416.m3u8?zanhd
 六安公共,http://ls.qingting.fm/live/1794199.m3u8
-六安新闻综合,http://ls.qingting.fm/live/267.m3u8
+六安新闻综合,http://ls.qingting.fm/live/267.m3u8#http://pili-live-rtmp.luan2.hfmt.net/luan2/jjpd.m3u8
 固镇新闻,http://www.guzhenm.com:7001/hls/hd-live.m3u8#http://www.guzhenm.com:7001/hls/hd-live.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]#http://www.guzhenm.com:7001/hls/hd-live.m3u8?zanhd
 安徽国际,https://stream1.freetv.fun/an-hui-guo-ji-16.m3u8#http://36.35.16.98:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0
 安徽导视,http://dspdhls.appcoo.com:8888/live/dspd/index.m3u8
@@ -217,6 +218,9 @@ Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8#http://ott.watch/stream/E9
 固镇新闻频道,http://www.guzhenm.com:7001/hls/hd-live.m3u8
 固镇影视频道,http://www.guzhenm.com:7004/hls/hd-live.m3u8
 定远综合频道,http://ssdyapp.cn/live/dyv1.m3u8
+亳州农村频道,http://zbbf2.ahbztv.com/live/418.m3u8
+六安公共频道,http://pili-live-rtmp.luan2.hfmt.net/luan2/ggpd.m3u8
+灵璧综合频道,http://live.cms.anhuinews.com/video/s10003-lbtv/index.m3u8
 
 海南频道,#genre#
 海南公共,https://stream1.freetv.fun/ipv6-hai-nan-gong-gong-9.m3u8#https://stream1.freetv.fun/ipv6-hai-nan-gong-gong-8.m3u8#https://stream1.freetv.fun/ipv6-hai-nan-gong-gong-16.m3u8
@@ -290,7 +294,7 @@ Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8#http://ott.watch/stream/E9
 福州广播电视台新闻综合频道(FZTV-1),http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 福州生活,http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
 福建少儿,https://stream1.freetv.fun/fu-jian-shao-er-4.m3u8#https://stream1.freetv.fun/fu-jian-shao-er-7.m3u8#https://stream1.freetv.fun/fu-jian-shao-er-1.m3u8#https://stream1.freetv.fun/fu-jian-shao-er-6.m3u8#https://stream1.freetv.fun/fu-jian-shao-er-2.m3u8#https://stream1.freetv.fun/fu-jian-shao-er-3.m3u8#http://183.250.156.180:9999/newlive/live/hls/26/live.m3u8
-龙岩新闻综合,http://live.lytv.net.cn/zhpwd/hd/live.m3u8
+龙岩新闻综合,http://live.lytv.net.cn/zhpwd/hd/live.m3u8#http://stream.lytv.net.cn/2/sd/live.m3u8
 龙岩公共频道,http://live.lytv.net.cn/ggpd/sd/live.m3u8
 
 甘肃频道,#genre#
@@ -312,6 +316,11 @@ Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8#http://ott.watch/stream/E9
 西和综合频道,https://play.kankanlive.com/live/1626051451895935.m3u8
 临夏市电视台,http://124.152.34.102:8030/wCMq71/wCMq71_0.m3u8
 秦安综合频道,http://play.kankanlive.com/live/1620829433464975.m3u8
+甘南综合频道,http://pili-live-hls.hfmt.net/gntv/gnhytv.m3u8
+甘南藏语频道,http://pili-live-hls.hfmt.net/gntv/gnzytv.m3u8
+临潭综合频道,http://pili-live-hls.hfmt.net/gntv/lttv.m3u8
+夏河综合频道,http://pili-live-hls.hfmt.net/gntv/xhtv.m3u8
+卓尼综合频道,http://pili-live-hls.hfmt.net/gntv/zntv.m3u8
 
 广西频道,#genre#
 南宁公共,https://stream1.freetv.fun/nan-zhu-gong-gong-5.m3u8#https://stream1.freetv.fun/nan-zhu-gong-gong-7.m3u8#https://stream1.freetv.fun/nan-zhu-gong-gong-9.m3u8#https://stream1.freetv.fun/nan-zhu-gong-gong-1.m3u8#http://hls.nntv.cn/nnlive/NNTV_PUB_A.m3u8
@@ -326,6 +335,7 @@ Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8#http://ott.watch/stream/E9
 贵州频道,#genre#
 仁怀新闻,http://123.207.224.130:123/guizhou/renhuai.php
 安顺新闻,https://ls.qingting.fm/live/5022203/64k.m3u8
+正安综合,http://pili-live-hls.221.i2863.com/i2863-221/live_221_315303.m3u8
 
 河北频道,#genre#
 河北农民,https://t.freetv.fun/live/he-bei-nong-min-1.m3u8#https://t.freetv.fun/live/he-bei-nong-min.m3u8#https://stream1.freetv.fun/he-bei-nong-min-7.ctv#https://stream1.freetv.fun/he-bei-nong-min-17.m3u8#https://stream1.freetv.fun/he-bei-nong-min-8.m3u8#https://stream1.freetv.fun/he-bei-nong-min-14.m3u8#https://stream1.freetv.fun/he-bei-nong-min-12.m3u8#https://stream1.freetv.fun/he-bei-nong-min-15.m3u8
@@ -362,6 +372,7 @@ Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8#http://ott.watch/stream/E9
 新野综合,http://tvpull.dxhmt.cn:9081/tv/11329-1.m3u8#http://live.dxhmt.cn:9081/tv/11329-1.m3u8
 延津综合频道,http://tvpull.dxhmt.cn:9081/tv/10726-1.m3u8#http://live.dxhmt.cn:9081/tv/10726-1.m3u8
 范县新闻综合,http://live.dxhmt.cn:9080/13603832636/13abd3089d9c47058fe34c49a6182981.m3u8
+鹤壁综合频道,http://pili-live-hls.hebitv.com/hebi/hebi.m3u8
 
 黑龙江频道,#genre#
 哈尔滨娱乐,https://t.freetv.fun/live/ha-er-bin-yu-le-1.m3u8#http://stream.hrbtv.net/ylpd/sd/live.m3u8?zheild#http://stream.hrbtv.net/ylpd/playlist.m3u8#http://stream.hrbtv.net/ylpd/sd/live.m3u8#https://stream.hrbtv.net/ylpd/sd/live.m3u8
@@ -407,6 +418,7 @@ Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8#http://ott.watch/stream/E9
 柳河综合,http://stream5.jlntv.cn/lh/sd/live.m3u8
 通化县综合,http://stream5.jlntv.cn/thx/sd/live.m3u8
 汪清综合,http://stream5.jlntv.cn/wq/sd/live.m3u8
+梅河口综合,http://stream4.jlntv.cn/mhk/sd/live.m3u8
 
 江西频道,#genre#
 万载综合,http://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8#http://ls.qingting.fm/live/273.m3u8
@@ -417,10 +429,11 @@ Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8#http://ott.watch/stream/E9
 江西都市,http://192.151.150.154/live/jxtv2.m3u8
 赣州新闻综合,https://t.freetv.fun/live/gan-zhou-xin-wen-zong-he-1.m3u8
 万载综合频道,http://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8
+鄱阳综合,http://pili-live-hls.poyang.jxxw.com.cn/pyxrmtzx/poyang.m3u8
 
 青海频道,#genre#
 安多卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8#https://stream1.freetv.fun/52d0df257c5c3cec42f2ae19268dbbc261256ff391b27bd83553bea941d0c186.m3u8#https://t.freetv.fun/live/an-duo-wei-shi-1.m3u8#https://t.freetv.fun/live/an-duo-wei-shi.m3u8#http://1.190.240.47:9003/hls/2077/index.m3u8#http://kkk.888.3116598.xyz/api.php?n=tttt&id=rdOvlL&tk=FgM0vQMejxvG#http://kkk.888.3116598.xyz/api.php?n=tttt&id=wRMQR6&tk=FgM0vQMejxvG
-西宁新闻综合,https://stream1.freetv.fun/zhu-xia--xi-zhu-xin-wen-zong-he-1.m3u8#https://stream1.freetv.fun/xi-zhu-xin-wen-zong-he-3.m3u8#https://stream1.freetv.fun/xi-zhu-xin-wen-zong-he-2.m3u8#https://stream1.freetv.fun/xi-zhu-xin-wen-zong-he-1.m3u8#https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
+西宁新闻综合,https://stream1.freetv.fun/zhu-xia--xi-zhu-xin-wen-zong-he-1.m3u8#https://stream1.freetv.fun/xi-zhu-xin-wen-zong-he-3.m3u8#https://stream1.freetv.fun/xi-zhu-xin-wen-zong-he-2.m3u8#https://stream1.freetv.fun/xi-zhu-xin-wen-zong-he-1.m3u8#https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd#https://liveout.xntv.tv/a65jur/96iln2.m3u8
 西宁生活服务,https://t.freetv.fun/live/xi-zhu-sheng-huo-fu-wu-1.flv#https://stream1.freetv.fun/xi-zhu-sheng-huo-fu-wu-3.m3u8#https://stream1.freetv.fun/xi-zhu-sheng-huo-fu-wu-1.m3u8#https://stream1.freetv.fun/xi-zhu-sheng-huo-fu-wu-2.m3u8
 
 四川频道,#genre#
@@ -451,6 +464,8 @@ Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8#http://ott.watch/stream/E9
 泸县新闻综合,http://lxfile.lxxcb.cn/nmip-media/channellive/channel103799/playlist.m3u8
 武胜综合频道,http://live2.gatv.com.cn:86/live/WS.m3u8
 三台电视一套,http://125.65.94.91:12351/live
+金川新闻综合,http://live.jinchuanrmt.com:90/live/zhxw.m3u8#http://139.203.180.9:90/live/zhxw.m3u8
+金川乡村频道,http://live.jinchuanrmt.com:90/live/jcxc.m3u8#http://139.203.180.9:90/live/jcxc.m3u8
 
 天津频道,#genre#
 天津,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/5f03d9f1684241f696b25a19ffc44145/main.m3u8

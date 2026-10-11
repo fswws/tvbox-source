@@ -1,5 +1,5 @@
 {
-  "time": "2026-10-08 15:50:10",
+  "time": "2026-10-11 01:09:01",
   "domestic_vod": [
     {
       "name": "影视仓内置源",
@@ -14,7 +14,7 @@
     {
       "name": "王二小",
       "file": "vod/dom_3.json",
-      "usable_sites": 96
+      "usable_sites": 99
     },
     {
       "name": "俊哥",
@@ -25,31 +25,6 @@
       "name": "二月红",
       "file": "vod/dom_5.json",
       "usable_sites": 40
-    },
-    {
-      "name": "潇洒",
-      "file": "vod/dom_6.json",
-      "usable_sites": 107
-    },
-    {
-      "name": "牛二",
-      "file": "vod/dom_7.json",
-      "usable_sites": 96
-    },
-    {
-      "name": "ok线路",
-      "file": "vod/dom_8.json",
-      "usable_sites": 234
-    },
-    {
-      "name": "小盒子",
-      "file": "vod/dom_9.json",
-      "usable_sites": 54
-    },
-    {
-      "name": "金鹰",
-      "file": "vod/dom_10.json",
-      "usable_sites": 106
     }
   ],
   "oversea_vod": [
@@ -104,22 +79,6 @@
     {
       "name": "iptv-org·中国频道",
       "file": "live/dom_5.m3u"
-    },
-    {
-      "name": "iptv-org·香港频道",
-      "file": "live/dom_6.m3u"
-    },
-    {
-      "name": "iptv-org·台湾频道",
-      "file": "live/dom_7.m3u"
-    },
-    {
-      "name": "iptv-org·澳门频道",
-      "file": "live/dom_8.m3u"
-    },
-    {
-      "name": "IPTV4测试源",
-      "file": "live/dom_9.txt"
     }
   ],
   "oversea_live": [
