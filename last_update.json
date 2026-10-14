@@ -1,5 +1,5 @@
 {
-  "time": "2026-10-11 01:09:01",
+  "time": "2026-10-14 01:19:29",
   "domestic_vod": [
     {
       "name": "影视仓内置源",
@@ -12,19 +12,19 @@
       "usable_sites": 48
     },
     {
-      "name": "王二小",
+      "name": "肥猫",
       "file": "vod/dom_3.json",
+      "usable_sites": 39
+    },
+    {
+      "name": "王二小",
+      "file": "vod/dom_4.json",
       "usable_sites": 99
     },
     {
       "name": "俊哥",
-      "file": "vod/dom_4.json",
-      "usable_sites": 24
-    },
-    {
-      "name": "二月红",
       "file": "vod/dom_5.json",
-      "usable_sites": 40
+      "usable_sites": 24
     }
   ],
   "oversea_vod": [
@@ -35,10 +35,10 @@
       "source": "影视仓内置源"
     },
     {
-      "name": "💖┃至臻┃4K💖",
-      "key": "至臻",
+      "name": "💌┃️至臻┃影视",
+      "key": "csp_Netfixtv",
       "file": "vod/oversea_2.json",
-      "source": "二月红"
+      "source": "肥猫"
     },
     {
       "name": "🍊┃在线┃外剧",
