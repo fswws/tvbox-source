@@ -1,6 +1,6 @@
 体育频道,#genre#
-CCTV5体育,http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009#http://nas.lyfkai.cn:19999/rtp/239.69.1.123:10376#http://home.amucn.net:8800/rtp/239.49.8.75:8000#http://107.150.60.122/live/cctv5hd.m3u8#http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub#http://207.56.13.146:81/cdnlive/cctv5.m3u8#http://173.208.212.130:8181/720p/cctv5.m3u8#http://dms.yryyj.site:8188/udp/239.76.246.168:1234
-CCTV5+体育赛事,http://www.taoli.website:23234/rtp/239.3.1.130:8004#http://nas.lyfkai.cn:19999/rtp/239.254.96.234:9484#http://home.amucn.net:8800/rtp/239.49.8.18:9610#http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009#http://120.76.248.139/live/bfgd/4200000246.m3u8#http://45.192.97.170:8880/play/141.m3u8#http://192.151.150.154/live/cctv5p.m3u8#http://bztv.tvbus.cc:8081/cdnlive/cctv5p.m3u8
+CCTV5体育,http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009#http://nas.lyfkai.cn:19999/rtp/239.69.1.123:10376#http://home.amucn.net:8800/rtp/239.49.8.75:8000#http://107.150.60.122/live/cctv5hd.m3u8#http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub#http://173.208.212.130:8181/720p/cctv5.m3u8#http://207.56.13.146:81/cdnlive/cctv5.m3u8#http://dms.yryyj.site:8188/udp/239.76.246.168:1234
+CCTV5+体育赛事,http://www.taoli.website:23234/rtp/239.3.1.130:8004#http://nas.lyfkai.cn:19999/rtp/239.254.96.234:9484#http://home.amucn.net:8800/rtp/239.49.8.18:9610#http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009#http://120.76.248.139/live/bfgd/4200000246.m3u8#http://bztv.tvbus.cc:8081/cdnlive/cctv5p.m3u8#https://api.olelive.com/dis/live/CCTV5PHD/hls.m3u8#http://39.135.138.58:18890/PLTV/88888888/224/3221225649/index.m3u8
 BTV6纪实,http://by4.nty.tv189.cn/tm-btvjishihd-4000k.m3u8
 CCTV-5+体育赛事,http://120.196.232.51:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226711/1.m3u8
 CCTV-5体育,http://120.196.232.31:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226731/1.m3u8
@@ -19,7 +19,7 @@ NewTV超级体育,http://39.135.138.58:18890/PLTV/88888888/224/3221225622/index.
 吉林篮球,http://stream1.jlntv.cn/lqpd/sd/live.m3u8
 咪咕体育,http://39.135.134.67/000000001000/3000000001000008379/index.m3u8
 咪咕体育4K,http://r.jdshipin.com/ln4xk
-天津体育,http://38.75.136.137:98/gslb/dsdqpub/tjtv5.m3u8?auth=testpub#http://63.141.230.178:82/gslb/zbdq5.m3u8?id=tjtv5#http://ak.cj022.com:10080/hls/6/index.m3u8
+天津体育,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=tjtv5#http://ak.cj022.com:10080/hls/6/index.m3u8
 山东体育,http://satellitepull.cnr.cn/live/wxsdtyxxgb/playlist.m3u8#https://satellitepull.cnr.cn/live/wxsdtyxxgb/playlist.m3u8#https://stream1.freetv.fun/shan-dong-ti-yu-8.m3u8#https://stream1.freetv.fun/shan-dong-ti-yu-19.m3u8#https://stream1.freetv.fun/shan-dong-ti-yu-7.m3u8
 广东体育,http://116.199.5.58:8114/index.m3u8?3Fsv_chan_hls_se_idx=21&FvSeid=1&Fsv_ctype=LIVES&Fsv_otype=1&Provider_id=&Pcontent_id=.m3u8#http://gxdl-lhs.8866.org:85/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0#http://gxdl-lhs.8866.org:85/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0#https://php.17186.eu.org/gdtv/gdty.m3u8#http://218.17.196.234:9901/tsfile/live/1001_1.m3u8
 广州竞赛,http://aplay.gztv.com/sec/jingsai.m3u8
@@ -27,7 +27,7 @@ NewTV超级体育,http://39.135.138.58:18890/PLTV/88888888/224/3221225622/index.
 爱体育,http://112.17.40.140/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230034/index.m3u8
 爱赛车,http://112.17.40.140/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230032/index.m3u8
 百事通体育,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225850/index.m3u8
-睛彩篮球,https://live.264788.xyz/channel/jingcailanqiu?streamid=38ee65d3b9fee2eb971b05b0a134978a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk#https://live.264788.xyz/channel/jingcailanqiu?streamid=40e579f6c4fc2784fadd3338b2de8b93&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+睛彩篮球,https://live.264788.xyz/channel/jingcailanqiu?streamid=40e579f6c4fc2784fadd3338b2de8b93&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk#https://live.264788.xyz/channel/jingcailanqiu?streamid=38ee65d3b9fee2eb971b05b0a134978a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 精品体育,https://live.264788.xyz/channel/newtvjingpintiyu?streamid=53f79016c385f5c91cedaba25c3b0559&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk#https://live.264788.xyz/channel/newtvjingpintiyu?streamid=c6d38d114b6ac7088f9600529f26f47a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk#http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226328/1.m3u8
 自由搏击,http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226297/1.m3u8
 英国赛车,https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8

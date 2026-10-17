@@ -1,5 +1,5 @@
 {
-  "time": "2026-10-14 01:19:29",
+  "time": "2026-10-17 00:41:17",
   "domestic_vod": [
     {
       "name": "影视仓内置源",
@@ -9,12 +9,12 @@
     {
       "name": "饭太硬",
       "file": "vod/dom_2.json",
-      "usable_sites": 48
+      "usable_sites": 49
     },
     {
       "name": "肥猫",
       "file": "vod/dom_3.json",
-      "usable_sites": 39
+      "usable_sites": 40
     },
     {
       "name": "王二小",
@@ -35,10 +35,10 @@
       "source": "影视仓内置源"
     },
     {
-      "name": "💌┃️至臻┃影视",
-      "key": "csp_Netfixtv",
+      "name": "💖┃至臻┃4K💖",
+      "key": "至臻",
       "file": "vod/oversea_2.json",
-      "source": "肥猫"
+      "source": "二月红"
     },
     {
       "name": "🍊┃在线┃外剧",
