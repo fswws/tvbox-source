@@ -179,6 +179,7 @@ Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8#http://ott.watch/stream/E9
 烟台公共频道,http://live.yantaitv.cn/live/e50f104a4ffe4a41b2217cbda534146f/d86092e69df94668b33390278b061700-1.m3u8
 烟台经济科技,http://live.yantaitv.cn/live/27f84144e95a4652ae9e5c211b2a6b55/405f3e33ba384aa0a16014d0becd1261-1.m3u8
 烟台影视频道,http://live.yantaitv.cn/live/e9f1d9045d474c31884d13fa4ffbbd16/a4a9b3704d854756907845107cc56129-1.m3u8
+青岛城阳频道,http://pili-live-rtmp.56.i2863.com/i2863-56/live_56_307317.m3u8
 
 江苏频道,#genre#
 优漫卡通,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8#https://t.freetv.fun/live/you-man-qia-tong-3.m3u8
@@ -469,6 +470,7 @@ Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8#http://ott.watch/stream/E9
 三台电视一套,http://125.65.94.91:12351/live
 金川新闻综合,http://live.jinchuanrmt.com:90/live/zhxw.m3u8#http://139.203.180.9:90/live/zhxw.m3u8
 金川乡村频道,http://live.jinchuanrmt.com:90/live/jcxc.m3u8#http://139.203.180.9:90/live/jcxc.m3u8
+汉源综合频道,http://live.hyxrmt.com:85/live/xwpd.m3u8
 
 天津频道,#genre#
 天津,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/5f03d9f1684241f696b25a19ffc44145/main.m3u8
