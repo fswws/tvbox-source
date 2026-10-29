@@ -1,5 +1,5 @@
 {
-  "time": "2026-10-26 00:33:48",
+  "time": "2026-10-29 01:54:09",
   "domestic_vod": [
     {
       "name": "影视仓内置源",
@@ -14,7 +14,7 @@
     {
       "name": "肥猫",
       "file": "vod/dom_3.json",
-      "usable_sites": 40
+      "usable_sites": 39
     },
     {
       "name": "王二小",
@@ -36,7 +36,7 @@
     },
     {
       "name": "💖┃至臻┃4K💖",
-      "key": "至臻",
+      "key": "ZhiZhenPanCms",
       "file": "vod/oversea_2.json",
       "source": "二月红"
     },
