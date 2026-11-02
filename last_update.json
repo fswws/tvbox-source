@@ -1,5 +1,5 @@
 {
-  "time": "2026-11-01 01:21:35",
+  "time": "2026-11-02 01:41:34",
   "domestic_vod": [
     {
       "name": "影视仓内置源",
@@ -14,7 +14,7 @@
     {
       "name": "肥猫",
       "file": "vod/dom_3.json",
-      "usable_sites": 39
+      "usable_sites": 40
     },
     {
       "name": "王二小",
