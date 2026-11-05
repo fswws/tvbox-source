@@ -180,6 +180,7 @@ Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8#http://ott.watch/stream/E9
 烟台经济科技,http://live.yantaitv.cn/live/27f84144e95a4652ae9e5c211b2a6b55/405f3e33ba384aa0a16014d0becd1261-1.m3u8
 烟台影视频道,http://live.yantaitv.cn/live/e9f1d9045d474c31884d13fa4ffbbd16/a4a9b3704d854756907845107cc56129-1.m3u8
 青岛城阳频道,http://pili-live-rtmp.56.i2863.com/i2863-56/live_56_307317.m3u8
+德州图文频道,http://video.dztv.tv:1935/live/dztw_gq/playlist.m3u8#http://video.dztv.tv:1935/live/dztw_bq/playlist.m3u8#http://video.dztv.tv:1935/live/dztw_sj/playlist.m3u8
 
 江苏频道,#genre#
 优漫卡通,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8#https://t.freetv.fun/live/you-man-qia-tong-3.m3u8
