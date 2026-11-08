@@ -384,6 +384,7 @@ Discovery,http://ott.watch/stream/E9LDH2ZCN7/146.m3u8#http://ott.watch/stream/E9
 哈尔滨影视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226552/index.m3u8#https://t.freetv.fun/live/ha-er-bin-ying-shi-1.m3u8#https://t.freetv.fun/live/ha-er-bin-ying-shi-4.m3u8#http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild#http://stream.hrbtv.net/yspd/sd/live.m3u8#http://stream.hrbtv.net/yspd/playlist.m3u8#https://stream.hrbtv.net/yspd/sd/live.m3u8#https://stream.hrbtv.net/yspd/playlist.m3u8
 哈尔滨新闻综合,https://t.freetv.fun/live/ha-er-bin-xin-wen-zong-he-4.m3u8#https://t.freetv.fun/live/ha-er-bin-xin-wen-zong-he-1.m3u8#https://t.freetv.fun/live/ha-er-bin-xin-wen-zong-he-2.m3u8#https://t.freetv.fun/live/ha-er-bin-xin-wen-zong-he-3.m3u8#https://t.freetv.fun/live/ha-er-bin-zong-he-1.m3u8#https://stream1.freetv.fun/ha-er-bin-xin-wen-zong-he-4.m3u8#http://stream.hrbtv.net/xwzh/sd/live.m3u8
 哈尔滨生活,http://stream.hrbtv.net/shpd/sd/live.m3u8
+富裕综合,http://221.209.44.174:1980/hls/1001.m3u8
 
 吉林频道,#genre#
 东丰综合,http://stream3.jlntv.cn:80/aac_dfgb/playlist.m3u8#http://stream5.jlntv.cn/df/sd/live.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]#http://stream5.jlntv.cn/df/sd/live.m3u8?zjild#http://stream5.jlntv.cn/df/sd/live.m3u8
@@ -690,3 +691,7 @@ Channel A [Geo-blocked],http://channelalive.ktcdn.co.kr/chalivepc/_definst_/atv2
 北京-水长城03,https://gcalic.v.myalicdn.com/gc/wgw03_1/index.m3u8?contentid=2820180516001
 安徽-黄山飞来石,https://gcalic.v.myalicdn.com/gc/hsptgy_1/index.m3u8?contentid=2820180516001
 广东-梅州梅江,http://gcalic.v.myalicdn.com/gc/gllj01_1/index.m3u8
+
+云南频道,#genre#
+西双版纳综合,http://file.xsbnrtv.cn/vms/videos/nmip-media/channellive/channel1/playlist.m3u8
+西双版纳公共,http://file.xsbnrtv.cn/vms/videos/nmip-media/channellive/channel3/playlist.m3u8

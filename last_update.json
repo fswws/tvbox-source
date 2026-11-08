@@ -1,5 +1,5 @@
 {
-  "time": "2026-11-05 02:39:59",
+  "time": "2026-11-08 01:42:35",
   "domestic_vod": [
     {
       "name": "影视仓内置源",
@@ -14,7 +14,7 @@
     {
       "name": "王二小",
       "file": "vod/dom_3.json",
-      "usable_sites": 98
+      "usable_sites": 100
     },
     {
       "name": "俊哥",
