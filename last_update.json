@@ -1,5 +1,5 @@
 {
-  "time": "2026-11-14 02:36:31",
+  "time": "2026-11-17 04:41:38",
   "domestic_vod": [
     {
       "name": "影视仓内置源",
@@ -9,7 +9,7 @@
     {
       "name": "饭太硬",
       "file": "vod/dom_2.json",
-      "usable_sites": 48
+      "usable_sites": 49
     },
     {
       "name": "王二小",
